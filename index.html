@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.0/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css">
+    <title>L O C O M O T I V E</title>
+</head>
+
+<body>
+
+    <div data-scroll-container>
+        <section data-scroll-section>
+            <span data-scroll data-scroll-delay="0.18" data-scroll-speed="33">D</span>
+            <span data-scroll data-scroll-delay="0.05" data-scroll-speed="33">E</span>
+            <span data-scroll data-scroll-delay="0.16" data-scroll-speed="33">L</span>
+            <span data-scroll data-scroll-delay="0.15" data-scroll-speed="33">A</span>
+            <span data-scroll data-scroll-delay="0.14" data-scroll-speed="33">Y</span>
+            <span data-scroll data-scroll-delay="0.14" data-scroll-speed="33">-</span>
+            <span data-scroll data-scroll-delay="0.13" data-scroll-speed="33">S</span>
+            <span data-scroll data-scroll-delay="0.03" data-scroll-speed="33">C</span>
+            <span data-scroll data-scroll-delay="0.11" data-scroll-speed="33">R</span>
+            <span data-scroll data-scroll-delay="0.10" data-scroll-speed="33">O</span>
+            <span data-scroll data-scroll-delay="0.09" data-scroll-speed="33">L</span>
+            <span data-scroll data-scroll-delay="0.28" data-scroll-speed="33">L</span>
+        </section>
+
+        <section data-scroll-section>
+            <span data-scroll data-scroll-delay="0.18" data-scroll-speed="160">S</span>
+            <span data-scroll data-scroll-delay="0.16" data-scroll-speed="80">P</span>
+            <span data-scroll data-scroll-delay="0.14" data-scroll-speed="40">E</span>
+            <span data-scroll data-scroll-delay="0.14" data-scroll-speed="20">E</span>
+            <span data-scroll data-scroll-delay="0.12" data-scroll-speed="10">D</span>
+        </section>
+
+        <section data-scroll-section>
+            <span data-scroll data-scroll-delay="0.18" data-scroll-speed="50">S</span>
+            <span data-scroll-sticky>T</span>
+            <span data-scroll-sticky>I</span>
+            <span data-scroll-sticky>C</span>
+            <span data-scroll-sticky>K</span>
+            <span data-scroll-sticky>Y</span>
+        </section>
+
+        <section data-scroll-section>
+            <span data-scroll data-scroll-delay="0.18" data-scroll-speed="33" data-scroll-direction="horizontal">H</span>
+            <span data-scroll data-scroll-delay="0.18" data-scroll-speed="33" data-scroll-direction="horizontal">O</span>
+            <span data-scroll data-scroll-delay="0.18" data-scroll-speed="33" data-scroll-direction="horizontal">R</span>
+            <span data-scroll data-scroll-delay="0.18" data-scroll-speed="33" data-scroll-direction="horizontal">I</span>
+            <span data-scroll data-scroll-delay="0.18" data-scroll-speed="33" data-scroll-direction="horizontal">Z</span>
+            <span data-scroll data-scroll-delay="0.18" data-scroll-speed="33" data-scroll-direction="horizontal">O</span>
+            <span data-scroll data-scroll-delay="0.18" data-scroll-speed="33" data-scroll-direction="horizontal">N</span>
+            <span data-scroll data-scroll-delay="0.18" data-scroll-speed="33" data-scroll-direction="horizontal">T</span>
+            <span data-scroll data-scroll-delay="0.18" data-scroll-speed="33" data-scroll-direction="horizontal">A</span>
+            <span data-scroll data-scroll-delay="0.18" data-scroll-speed="33" data-scroll-direction="horizontal">L</span>
+        </section>
+        <section data-scroll-section>
+            <span data-scroll data-scroll-delay="0.18" data-scroll-speed="33" data-scroll-direction="vertical">V</span>
+            <span data-scroll data-scroll-delay="0.18" data-scroll-speed="33" data-scroll-direction="vertical">E</span>
+            <span data-scroll data-scroll-delay="0.18" data-scroll-speed="33" data-scroll-direction="vertical">R</span>
+            <span data-scroll data-scroll-delay="0.18" data-scroll-speed="33" data-scroll-direction="vertical">T</span>
+            <span data-scroll data-scroll-delay="0.18" data-scroll-speed="33" data-scroll-direction="vertical">I</span>
+            <span data-scroll data-scroll-delay="0.18" data-scroll-speed="33" data-scroll-direction="vertical">C</span>
+            <span data-scroll data-scroll-delay="0.18" data-scroll-speed="33" data-scroll-direction="vertical">A</span>
+            <span data-scroll data-scroll-delay="0.18" data-scroll-speed="33" data-scroll-direction="vertical">L</span>
+        </section>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.0/dist/locomotive-scroll.js"></script>
+    <script>
+        const scroll = new LocomotiveScroll({
+            el: document.querySelector('[data-scroll-container]'),
+            smooth: true,
+            // direction: 'horizontal',
+            smartphone:{
+                smooth: true,
+            }
+        });
+    </script>
+</body>
+
+</html>
